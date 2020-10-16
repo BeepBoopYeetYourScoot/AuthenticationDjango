@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>Вы успешно вышли из аккаунта</h2>
+    <div class="content-section">
+        <small class="text-muted">
+            Имеется аккаунт? <a href="{% url 'login' %}">Войдите</a>
+        </small>
+    </div>
+{% endblock content %}

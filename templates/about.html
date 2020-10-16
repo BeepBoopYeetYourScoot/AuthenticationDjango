@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+{% if user.is_authenticated %}
+
+        <h1>О проекте</h1>
+
+{% else %}
+        <h1>Авторизуйтесь, прежде чем увидеть на страницу</h1>
+{% endif %}
+
+    {% endblock content %}
